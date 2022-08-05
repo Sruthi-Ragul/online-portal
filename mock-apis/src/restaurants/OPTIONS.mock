@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: authorization, content-type, accept, company-id, app-version, device-type, device-os, vendor-id, appkey, session-id, request-id, plr-transaction-id
+Access-Control-Allow-Methods: GET, POST, HEAD, PATCH, PUT
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/json
+Date: Fri, 19 Jul 2019 05:01:41 GMT
+Strict-Transport-Security: maxage=31536000; includeSubdomains; preload
+X-RateLimit-SpikeArrest-Limit: 10000
+X-RateLimit-SpikeArrest-Remaining: 9999

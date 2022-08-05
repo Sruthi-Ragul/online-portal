@@ -1,0 +1,50 @@
+@import "../../styles/variables.scss";
+
+.ops-root-container {
+ .search-container {
+     display: flex;
+     padding: 40px 0px 25px 0px;
+    .total-restaurant-text {
+        font-size: $font24;
+        color: $black-text;
+        font-weight: bold;
+    }
+ }
+ table {
+     tr {
+         cursor: pointer;
+     }
+    background-color: $white;
+    box-shadow: 0px 10px 40px #e5e7ea;
+ }
+ .filter-container {
+     height: 900px;
+     margin-top: 40px;
+     background-color: $white;
+     box-shadow: 0px 10px 40px #e5e7ea;
+ }
+ .filter-pills {
+     font-size: $font14;
+     font-weight: bold;
+     color: $black;
+     background: $filter-pill;
+     opacity: 10%;
+     border: 1px solid $filter-pill;
+     .closeIcon {
+         color: $filter-pill
+     }
+}
+.filter-title {
+    font-size: $font16;
+    color: $black-text;
+    font-weight: bold;
+}
+.filter-share {
+    font-size: $font12;
+    color: $green-link;
+}
+.filter-reset {
+     font-size: $font12;
+     color: $filter-pill
+}
+}
